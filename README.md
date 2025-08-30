@@ -21,7 +21,7 @@ cd backend
 python -m venv venv
 source venv/bin/activate  # Linux / Mac
 venv\Scripts\activate     # Windows
-pip install flask flask-cors
+pip install flask flask_cors
 python app.py
 ```
 Runs Flask API at http://localhost:5000.
