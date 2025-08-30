@@ -54,31 +54,6 @@ Runs React app at http://localhost:3000 (CRA).
 
 6. Changes are sent to the API and reflected immediately.
 
-
-
-## Project Structure
-
-### Backend
-
-backend/
-├─ devices.sample_1.json
-├─ app.py
-└─ requirements.txt
-
-### Frontend
-
-web-app/
-├─ src/
-│  ├─ components/
-│  │  ├─ DeviceBubbleChart.jsx
-│  │  ├─ DeviceActionsModal.jsx
-│  │  └─ Filters.jsx
-│  ├─ services/
-│  │  └─ api.js
-│  └─ App.jsx
-├─ package.json
-└─ vite.config.js
-
 ## Notes
 
 API does not call any third-party service.
